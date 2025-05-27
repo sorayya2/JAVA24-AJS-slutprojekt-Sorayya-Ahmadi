@@ -1,0 +1,25 @@
+{
+  "name": "testv",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "## Overview This is a React-based Scrum board application allowing users to manage team members and tasks with roles and categories. It supports task creation, assignment, status updates, filtering, sorting, and data persistence via Firebase Realtime Database.",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "del-cli": "^6.0.0",
+    "parcel": "^2.15.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "firebase": "^11.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "underscore": "^1.13.7"
+  }
+}
